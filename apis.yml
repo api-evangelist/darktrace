@@ -1,0 +1,130 @@
+aid: darktrace
+url: https://raw.githubusercontent.com/api-evangelist/darktrace/refs/heads/main/apis.yml
+name: Darktrace
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Cybersecurity
+- Self-Learning AI
+- ActiveAI
+- NDR
+- Email Security
+- Cloud Security
+- OT Security
+- Endpoint Security
+description: Darktrace builds the ActiveAI Security Platform, an AI-native cybersecurity platform powered by Self-Learning
+  AI that models normal behavior across network, email, cloud, identity, OT, and endpoint environments to detect novel threats
+  without relying on predefined signatures. The platform spans Network, Email, Cloud, Identity, OT, Endpoint, and Secure
+  AI products plus cross-platform capabilities including Cyber AI Analyst, Proactive Exposure Management, Attack Surface
+  Management, Adaptive Human Defense, and Forensic Acquisition & Investigation. Darktrace exposes a gated REST API at <instance>.cloud.darktrace.com/omniapi
+  for partner and customer integrations. Named a Leader in the 2025 Gartner Magic Quadrant for NDR; serves 10,000+ customers
+  globally.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: darktrace:darktrace-omniapi
+  name: Darktrace OmniAPI
+  tags:
+  - Detections
+  - Devices
+  - Models
+  - Antigena
+  - AI Analyst
+  humanURL: https://customerportal.darktrace.com
+  baseURL: https://customer-instance.cloud.darktrace.com/omniapi
+  properties:
+  - url: https://customerportal.darktrace.com
+    type: Portal
+    title: Darktrace Customer Portal (gated)
+  - url: https://www.darktrace.com/products
+    type: Documentation
+    title: Darktrace ActiveAI Security Platform
+  description: The Darktrace OmniAPI is a gated REST API hosted on each customer's Darktrace cloud instance at <instance>.cloud.darktrace.com/omniapi.
+    It provides programmatic access to Darktrace's ActiveAI platform including model breaches and detections, device inventory
+    and tagging, AI Analyst incident summaries, and Antigena autonomous response actions. The API is used by customers and
+    technology partners to integrate Darktrace into SIEM, SOAR, ticketing, and broader security operations workflows. Documentation
+    and credentials are issued via the Darktrace customer portal.
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/darktrace
+- type: Website
+  url: https://www.darktrace.com/
+- type: Portal
+  url: https://customerportal.darktrace.com
+  title: Darktrace Customer Portal
+- type: Blog
+  url: https://www.darktrace.com/blog
+- type: Resources
+  url: https://www.darktrace.com/resources
+- type: ContactSales
+  url: https://www.darktrace.com/contact
+- type: Careers
+  url: https://www.darktrace.com/careers
+- type: Partners
+  url: https://www.darktrace.com/partners
+- type: PrivacyPolicy
+  url: https://www.darktrace.com/legal/privacy-statement
+- type: TermsOfService
+  url: https://www.darktrace.com/legal/terms-and-conditions
+- type: Features
+  data:
+  - name: Self-Learning AI
+    description: Unsupervised AI that learns each organization's normal behavior to detect novel and unknown threats
+  - name: ActiveAI Security Platform
+    description: Unified AI cybersecurity platform spanning network, email, cloud, identity, OT, and endpoint
+  - name: Network
+    description: AI-driven NDR with proactive protection beyond traditional signature-based tools
+  - name: Email
+    description: Cloud-native AI email security for phishing, BEC, and account takeover
+  - name: Cloud
+    description: AI security across AWS, Azure, and Google Cloud workloads and control planes
+  - name: Identity
+    description: 360-degree user protection against identity-based threats
+  - name: OT
+    description: AI security for operational technology and converged IT/OT environments
+  - name: Endpoint
+    description: AI-driven endpoint coverage across managed and unmanaged devices
+  - name: Secure AI
+    description: Security controls for safely deploying internal and third-party AI agents
+  - name: Cyber AI Analyst
+    description: Autonomous investigation that accelerates triage by up to 10x
+  - name: Proactive Exposure Management
+    description: Risk reduction across internal and external attack surfaces
+  - name: Attack Surface Management
+    description: Continuous discovery surfacing 30-50% more external assets than traditional tools
+  - name: Adaptive Human Defense
+    description: Human-focused security awareness and behavior change
+  - name: Forensic Acquisition and Investigation
+    description: Evidence collection and forensic investigation capabilities
+  - name: Incident Readiness and Recovery
+    description: Preparation, response, and recovery services for security incidents
+- type: UseCases
+  data:
+  - name: Novel Threat Detection
+    description: Use Self-Learning AI to detect zero-day, insider, and AI-driven attacks without signatures
+  - name: Autonomous Response
+    description: Use Antigena to take targeted, surgical autonomous response actions on detected threats
+  - name: Email and Phishing Defense
+    description: Deploy AI email security against phishing, BEC, supply-chain compromise, and account takeover
+  - name: OT and Critical Infrastructure
+    description: Protect industrial control systems and converged IT/OT environments
+  - name: Cloud Workload Protection
+    description: Detect threats across multi-cloud workloads and cloud control planes
+  - name: SOC Triage Acceleration
+    description: Use Cyber AI Analyst to automate investigation and surface narrative incidents
+- type: Integrations
+  data:
+  - name: SIEM
+    description: OmniAPI-driven integrations with Splunk, Microsoft Sentinel, Chronicle, QRadar, and others
+  - name: SOAR
+    description: Bidirectional integrations with Cortex XSOAR, Splunk SOAR, Tines, and similar platforms
+  - name: Cloud Providers
+    description: Native integrations with AWS, Azure, and Google Cloud for cloud telemetry and response
+  - name: Identity Providers
+    description: Integrations with Microsoft Entra ID, Okta, and other IdPs for identity-centric detection
+  - name: ITSM
+    description: Ticketing integrations with ServiceNow, Jira, and other ITSM platforms
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
