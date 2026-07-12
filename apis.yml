@@ -46,6 +46,12 @@ apis:
     technology partners to integrate Darktrace into SIEM, SOAR, ticketing, and broader security operations workflows. Documentation
     and credentials are issued via the Darktrace customer portal.
 common:
+- type: TrustCenter
+  url: security/darktrace-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/darktrace-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/darktrace-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/darktrace
 - type: Website
