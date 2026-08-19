@@ -33,7 +33,7 @@ description: Darktrace builds the ActiveAI Security Platform, an AI-native cyber
   globally.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: darktrace:darktrace-omniapi
   name: Darktrace OmniAPI
