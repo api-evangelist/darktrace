@@ -1,0 +1,29 @@
+# Front Door AI Index — darktrace — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: darktrace
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.darktrace.com
+  final_host: www.darktrace.com
+  ownership: own
+  owner: darktrace
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 102
+  host_score: 102
+  density: 35.32
+  words: 2888
+  tiers:
+    agentic: 2
+    core: 98
+    model: 2
+  ambiguous: 15
+  top_terms:
+    AI: 98
+    agent: 14
+    OpenAI: 2
+    agentic: 2
+    automation: 1
