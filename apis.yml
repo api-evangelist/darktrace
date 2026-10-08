@@ -69,6 +69,12 @@ apis:
     technology partners to integrate Darktrace into SIEM, SOAR, ticketing, and broader security operations workflows. Documentation
     and credentials are issued via the Darktrace customer portal.
 common:
+- type: Plans
+  url: plans/darktrace-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/darktrace-rate-limits.yml
+- type: FinOps
+  url: finops/darktrace-finops.yml
 - type: TrustCenter
   url: security/darktrace-trust-center.yml
 - type: VulnerabilityDisclosure
