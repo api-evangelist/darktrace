@@ -5,6 +5,7 @@ checked:
 - https://aws.amazon.com/marketplace/
 - https://azuremarketplace.microsoft.com/
 - microsoft-sentinel/integrations/microsoft-sentinel-integration-edges.yml
+- microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 - palo-alto-networks/integrations/palo-alto-networks-integration-edges.yml
 - splunk/integrations/splunk-integration-edges.yml
 marketplace_apps: []
@@ -152,6 +153,25 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: app
+- partner_name: Microsoft Teams (own)
+  partner: microsoft-teams
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appsource.microsoft.com/en-us/product/office/WA200006246
+  mirror_of: microsoft-teams/integrations/microsoft-teams-integration-edges.yml
+  apps:
+  - Darktrace Communicator
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Microsoft Teams app
+  publisher_verified:
+  - Microsoft 365 Certified
 source:
 - crowdstrike/integrations/crowdstrike-integration-edges.yml
 - microsoft-sentinel/integrations/microsoft-sentinel-integration-edges.yml
